@@ -1,11 +1,10 @@
 import React from 'react';
 import '../stylesheets/TextInput.scss';
 
-const TextInput = () => {
+const TextInput = (props) => {
   const handleOnChange = (ev) => {
     const value = ev.target.value;
-
-    console.log(value);
+    props.onChangeText(value);
   };
 
   return (
