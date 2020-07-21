@@ -7,7 +7,7 @@ const TextResult = (props) => {
       <label className='container__title' htmlFor='text'>
         Traducción :
       </label>
-      <textarea className='container__textarea' id='text' name='text' rows='8' value={props.value}></textarea>
+      <textarea className='container__textarea' id='text' name='text' rows='8' defaultValue={props.value}></textarea>
     </div>
   );
 };
