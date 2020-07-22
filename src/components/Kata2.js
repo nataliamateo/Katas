@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-// import '../stylesheets/Kata2.scss';
+import '../stylesheets/Kata2.scss';
 import TextInput from './TextInput';
 import TextResult from './TextResult';
 
@@ -41,7 +41,7 @@ const Pangram = () => {
   return (
     <div className='kata2'>
       <h2 className='kata2__title'>Detectando pangramas! </h2>
-      <p className='kata2__text'> Introduce la frase "The quick brown fox jumps over the lazy dog" y mira el resultado</p>
+      <p className='kata2__text'> Introduce la frase "The quick brown fox jumps over the lazy dog" y mira el resultado:</p>
       <div className='kata2__pangram'>
         <TextInput onChangeText={changeText} />
         <TextResult value={isAPangram(text)} />
