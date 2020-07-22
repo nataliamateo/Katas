@@ -19,9 +19,12 @@ const CasingStrings = () => {
   };
 
   return (
-    <div className='CasingStrings'>
-      <TextInput onChangeText={changeText} />
-      <TextResult value={resultTranslate(text)} />
+    <div className='kata1'>
+      <h2 className='kata1__title'>Capitalizar la primera letra de cada palabra</h2>
+      <div className='kata1__casingStrings'>
+        <TextInput onChangeText={changeText} />
+        <TextResult value={resultTranslate(text)} />
+      </div>
     </div>
   );
 };
