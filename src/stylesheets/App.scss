@@ -1,5 +1,7 @@
-// .App {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-// }
+.App {
+  &__title {
+    font-family: 'Kalam';
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+  }
+}

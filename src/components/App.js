@@ -7,6 +7,7 @@ import Kata3 from './Kata3';
 const App = () => {
   return (
     <div className='App'>
+      <h1 className='App__title'>Resultado de katas de Codewars</h1>
       <Kata1 />
       <Kata2 />
       <Kata3 />
