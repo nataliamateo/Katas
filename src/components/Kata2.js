@@ -31,7 +31,7 @@ const Pangram = () => {
 
     for (const count of Object.values(letrasVistas)) {
       if (count === 0) {
-        return '';
+        return false;
       }
     }
 
