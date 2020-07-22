@@ -10,7 +10,10 @@
   }
   &__text {
     padding-left: 218px;
-    font-size: 24px;
+    font-size: 20px;
+    &--bold {
+      font-weight: 600;
+    }
   }
   &__pangram {
     display: flex;

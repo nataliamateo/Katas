@@ -31,7 +31,7 @@ const Pangram = () => {
 
     for (const count of Object.values(letrasVistas)) {
       if (count === 0) {
-        return false;
+        return '';
       }
     }
 
@@ -41,7 +41,9 @@ const Pangram = () => {
   return (
     <div className='kata2'>
       <h2 className='kata2__title'>Detectando pangramas! </h2>
-      <p className='kata2__text'> Introduce la frase "The quick brown fox jumps over the lazy dog" y mira el resultado:</p>
+      <p className='kata2__text'>
+        Introduce la frase <span className='kata2__text--bold'>"The quick brown fox jumps over the lazy dog" </span> y mira el resultado:
+      </p>
       <div className='kata2__pangram'>
         <TextInput onChangeText={changeText} />
         <TextResult value={isAPangram(text)} />
