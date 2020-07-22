@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import '../stylesheets/CasingStrings.scss';
+// import '../stylesheets/Kata2.scss';
 import TextInput from './TextInput';
 import TextResult from './TextResult';
 
