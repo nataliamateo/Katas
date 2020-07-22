@@ -1,20 +1,22 @@
 .kata2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   &__title {
-    padding-left: 218px;
     font-family: 'Kalam';
     font-size: 28px;
     font-weight: 300;
     margin-bottom: 0;
   }
+
   &__text {
-    padding-left: 218px;
-    font-size: 20px;
+    font-size: 22px;
     &--bold {
       font-weight: 600;
     }
   }
+
   &__pangram {
     display: flex;
     flex-direction: row;
