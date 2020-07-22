@@ -1,10 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  &__title {
-    margin-bottom: 20px;
-    font-size: 22px;
-  }
   &__textarea {
     margin: 0;
     width: 485px;

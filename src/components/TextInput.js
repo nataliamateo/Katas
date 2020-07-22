@@ -9,10 +9,7 @@ const TextInput = (props) => {
 
   return (
     <div className='container'>
-      <label className='container__title' htmlFor='text'>
-        Escribe aqui tu texto :
-      </label>
-      <textarea className='container__textarea' onChange={handleOnChange} id='text' name='text' rows='8'></textarea>
+      <textarea className='container__textarea' onChange={handleOnChange} id='text' name='text' rows='8' placeholder='Introduce el texto'></textarea>
     </div>
   );
 };
