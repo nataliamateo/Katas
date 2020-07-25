@@ -7,6 +7,7 @@ import Kata4 from './Kata4';
 import Kata5 from './Kata5';
 import Kata6 from './Kata6';
 import Kata7 from './Kata7';
+import Kata8 from './Kata8';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Kata5 />
       <Kata6 />
       <Kata7 />
+      <Kata8 />
     </div>
   );
 };
