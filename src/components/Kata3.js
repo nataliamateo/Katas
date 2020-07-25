@@ -12,14 +12,14 @@ const MiddleCharacter = () => {
   };
 
   const getMiddle = (text) => {
-    var length = text.length;
+    let length = text.length;
     if (length === 1) {
       return text;
     } else if (length % 2 === 0) {
-      var half = length / 2;
+      let half = length / 2;
       return text.charAt(half - 1) + text.charAt(half);
     } else {
-      var half = Math.floor(length / 2);
+      let half = Math.floor(length / 2);
       return text.charAt(half);
     }
   };
