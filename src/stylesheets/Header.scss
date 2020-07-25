@@ -1,4 +1,22 @@
 .header {
   position: fixed;
   height: 100vh;
+  display: flex;
+  padding-top: 30px;
+  border-right: 1px black solid;
+  &__nav {
+    padding: 0 30px;
+  }
+}
+
+.nav {
+  &__list {
+    list-style: none;
+    padding-left: 10px;
+  }
+}
+
+.url {
+  text-decoration: none;
+  font-size: 18px;
 }
