@@ -1,6 +1,10 @@
 .App {
   display: flex;
-  &__title {
+  &__container {
+    position: absolute;
+    left: 30%;
+  }
+  &--title {
     font-family: 'Kalam';
     font-family: 'Roboto', sans-serif;
     padding: 40px 40px;

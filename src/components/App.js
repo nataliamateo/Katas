@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/App.scss';
-import Index from './Index';
+import Header from './Header';
 import Kata1 from './Kata1';
 import Kata2 from './Kata2';
 import Kata3 from './Kata3';
@@ -13,9 +13,9 @@ import Kata8 from './Kata8';
 const App = () => {
   return (
     <div className='App'>
-      <Index />
-      <div>
-        <h1 className='App__title'>Resultado de katas de Codewars</h1>
+      <Header />
+      <main className='App__container'>
+        <h1 className='App__container--title'>Resultado de katas de Codewars</h1>
         <Kata1 />
         <Kata2 />
         <Kata3 />
@@ -24,7 +24,7 @@ const App = () => {
         <Kata6 />
         <Kata7 />
         <Kata8 />
-      </div>
+      </main>
     </div>
   );
 };
