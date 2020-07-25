@@ -18,12 +18,12 @@ const HashtagGenerator = () => {
       .join('');
 
     if (letters === '') {
-      return false;
+      return letters;
     } else if (letters.length >= 140) {
       return false;
+    } else {
+      return '#' + letters;
     }
-
-    return '#' + letters;
   };
 
   return (
