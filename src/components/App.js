@@ -14,15 +14,17 @@ const App = () => {
   return (
     <div className='App'>
       <Index />
-      <h1 className='App__title'>Resultado de katas de Codewars</h1>
-      <Kata1 />
-      <Kata2 />
-      <Kata3 />
-      <Kata4 />
-      <Kata5 />
-      <Kata6 />
-      <Kata7 />
-      <Kata8 />
+      <div>
+        <h1 className='App__title'>Resultado de katas de Codewars</h1>
+        <Kata1 />
+        <Kata2 />
+        <Kata3 />
+        <Kata4 />
+        <Kata5 />
+        <Kata6 />
+        <Kata7 />
+        <Kata8 />
+      </div>
     </div>
   );
 };
