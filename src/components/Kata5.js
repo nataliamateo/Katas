@@ -24,7 +24,7 @@ const AlphabetPosition = () => {
   return (
     <div className='kata5'>
       <h2 className='kata5__title' id='kata5'>
-        Reemplazar las letras por la posición que ocupan en el alfabeto{' '}
+        Kata 5. <span className='kata5__title--subtitle'> Reemplazar las letras por la posición que ocupan en el alfabeto </span>
       </h2>
       <p className='kata5__text'>Cada letra se reemplaza por el número de posición que ocupan actualmente en el alfabeto:</p>
       <div className='kata5__alphabetPosition'>
