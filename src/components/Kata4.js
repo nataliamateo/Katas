@@ -17,9 +17,9 @@ const CamelCase = () => {
     }
 
     let result = text
-      .replace(/\-|_/gi, ' ')
+      .toLowerCase()
+      .replace(/-|_/gi, ' ')
       .split(' ')
-      .map((word) => word.toLowerCase())
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
       .join('');
 
