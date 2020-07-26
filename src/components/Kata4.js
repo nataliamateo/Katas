@@ -28,7 +28,9 @@ const CamelCase = () => {
 
   return (
     <div className='kata4'>
-      <h2 className='kata4__title'>CamelCase </h2>
+      <h2 className='kata4__title' id='kata4'>
+        CamelCase
+      </h2>
       <p className='kata4__text'>Escribe una frase para ver el resultado de camelCase:</p>
       <div className='kata4__camelCase'>
         <TextInput onChangeText={changeText} />

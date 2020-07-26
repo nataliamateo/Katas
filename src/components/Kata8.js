@@ -28,7 +28,9 @@ const HashtagGenerator = () => {
 
   return (
     <div className='kata8'>
-      <h2 className='kata8__title'> Generador de Hashtag </h2>
+      <h2 className='kata8__title' id='kata8'>
+        Generador de Hashtag
+      </h2>
       <p className='kata8__text'>Genera un Hashtag, capitaliza todas las palabras y retorna false si se superan los 140 carácteres.</p>
       <div className='kata8__generateHashtag'>
         <TextInput onChangeText={changeText} />

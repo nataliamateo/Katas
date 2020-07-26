@@ -35,7 +35,9 @@ const BreakStrings = () => {
 
   return (
     <div className='kata7'>
-      <h2 className='kata7__title'> Divide palabras en pares de dos carácteres </h2>
+      <h2 className='kata7__title' id='kata7'>
+        Divide palabras en pares de dos carácteres
+      </h2>
       <p className='kata7__text'>Divide una palabra en grupos de 2 carácteres. En caso de ser impar se añade un "_"</p>
       <div className='kata7__splitText'>
         <TextInput onChangeText={changeText} />

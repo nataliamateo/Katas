@@ -40,7 +40,9 @@ const Pangram = () => {
 
   return (
     <div className='kata2'>
-      <h2 className='kata2__title'>Detectando pangramas! </h2>
+      <h2 className='kata2__title' id='kata2'>
+        Detectando pangramas!
+      </h2>
       <p className='kata2__text'>
         Introduce la frase <span className='kata2__text--bold'>"The quick brown fox jumps over the lazy dog" </span> y mira el resultado:
       </p>

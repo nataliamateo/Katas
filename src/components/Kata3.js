@@ -26,7 +26,9 @@ const MiddleCharacter = () => {
 
   return (
     <div className='kata3'>
-      <h2 className='kata3__title'>Retornando la letra del medio </h2>
+      <h2 className='kata3__title' id='kata3'>
+        Retornando la letra del medio
+      </h2>
       <p className='kata3__text'>Si la palabra es par devolverá una letra, si es impar devolverá dos:</p>
       <div className='kata3__middleCharacter'>
         <TextInput onChangeText={changeText} />

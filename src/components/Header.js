@@ -43,12 +43,12 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href='/Kata8' className='url'>
+            <a href='#kata8' className='url'>
               Kata 8
             </a>
           </li>
           <li>
-            <a href='/Kata9' className='url'>
+            <a href='#kata9' className='url'>
               Kata 9
             </a>
           </li>
