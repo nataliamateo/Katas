@@ -3,7 +3,10 @@
   height: 100vh;
   display: flex;
   padding-top: 30px;
-  border-right: 1px black solid;
+  border-right: 3px black solid;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
   &__nav {
     padding: 0 30px;
   }
