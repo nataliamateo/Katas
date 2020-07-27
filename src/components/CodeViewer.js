@@ -16,7 +16,9 @@ const CodeViewer = (props) => {
 
   return (
     <div>
-      <button onClick={handleClick}>ver el codigo</button>
+      <button className='btn-code' onClick={handleClick}>
+        Ver el código
+      </button>
       <img className={view ? 'block' : 'none'} src={props.image} width='800' alt='source code'></img>
     </div>
   );
