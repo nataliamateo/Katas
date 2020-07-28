@@ -25,7 +25,7 @@ const SpinningWords = () => {
       <h2 className="kata9__title" id="kata9">
         Kata 9. <span className="kata9__title--subtitle">Palabras invertidas</span>
       </h2>
-      <p className="kata9__text">Si la palabra contiene 5 o más letras se invertirá el órden de la palabra.</p>
+      <p className="kata9__text">Si la palabra contiene 5 o más letras se invertirá el órden de la palabra. Permite también frases.</p>
       <p>Ej: Ordenador ---> rodanedrO</p>
       <div className="kata9__spinWord">
         <TextInput onChangeText={changeText} />
