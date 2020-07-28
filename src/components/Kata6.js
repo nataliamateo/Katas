@@ -28,18 +28,18 @@ const Vocals = () => {
     }
 
     if (a === 0 && e === 0) {
-      return true;
+      return letters;
     }
     return a === e;
   };
 
   return (
-    <div className='kata6'>
-      <h2 className='kata6__title' id='kata6'>
-        Kata 6. <span className='kata6__title--subtitle'>Verificar si hay el mismo número de "a" y de "e"</span>
+    <div className="kata6">
+      <h2 className="kata6__title" id="kata6">
+        Kata 6. <span className="kata6__title--subtitle">Verificar si hay el mismo número de "a" y de "e"</span>
       </h2>
-      <p className='kata6__text'>El método retornará true o false dependiendo del caso.</p>
-      <div className='kata6__vocals'>
+      <p className="kata6__text">El método retornará true o false dependiendo del caso.</p>
+      <div className="kata6__vocals">
         <TextInput onChangeText={changeText} />
         <TextResult value={AE(text)} />
       </div>
