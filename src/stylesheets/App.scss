@@ -2,11 +2,14 @@
   display: flex;
   &__container {
     position: absolute;
-    left: 30%;
-  }
-  &--title {
-    font-family: 'Kalam';
-    font-family: 'Roboto', sans-serif;
-    padding: 40px 40px;
+    left: 20%;
+
+    @media all and (min-width: 2560px) {
+      left: 30%;
+    }
+    &--title {
+      font-family: 'Roboto', sans-serif;
+      padding: 20px;
+    }
   }
 }
