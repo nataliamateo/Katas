@@ -25,12 +25,12 @@ const MiddleCharacter = () => {
   };
 
   return (
-    <div className='kata3'>
-      <h2 className='kata3__title' id='kata3'>
-        Kata 3. <span className='kata3__title--subtitle'> Retornando la letra del medio</span>{' '}
+    <div className="kata3">
+      <h2 className="kata3__title" id="kata3">
+        Kata 3. <span className="kata3__title--subtitle"> Retornando la letra del medio</span>{' '}
       </h2>
-      <p className='kata3__text'>Si la palabra es par devolverá una letra, si es impar devolverá dos:</p>
-      <div className='kata3__middleCharacter'>
+      <p className="kata3__text">Si la palabra es par devolverá dos letras, si es impar devolverá una:</p>
+      <div className="kata3__middleCharacter">
         <TextInput onChangeText={changeText} />
         <TextResult value={getMiddle(text)} />
       </div>

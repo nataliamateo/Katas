@@ -38,7 +38,8 @@ const Vocals = () => {
       <h2 className="kata6__title" id="kata6">
         Kata 6. <span className="kata6__title--subtitle">Verificar si hay el mismo número de "a" y de "e"</span>
       </h2>
-      <p className="kata6__text">El método retornará true o false dependiendo del caso.</p>
+      <p className="kata6__text">El método retornará true o false.</p>
+      <p>Ej: "pera" ---> true y "taza" ---> false</p>
       <div className="kata6__vocals">
         <TextInput onChangeText={changeText} />
         <TextResult value={AE(text)} />

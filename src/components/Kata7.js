@@ -39,6 +39,7 @@ const BreakStrings = () => {
         Kata 7. <span className="kata7__title--subtitle"> Divide palabras en pares de dos carácteres</span>
       </h2>
       <p className="kata7__text">Divide una palabra en grupos de 2 carácteres. En caso de ser impar se añade un "_"</p>
+      <p>Ej: "ordenador" ---> "or de na do r_"</p>
       <div className="kata7__splitText">
         <TextInput onChangeText={changeText} />
         <TextResult value={result(text)} />

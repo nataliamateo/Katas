@@ -19,11 +19,12 @@ const CasingStrings = () => {
   };
 
   return (
-    <div className='kata1'>
-      <h2 className='kata1__title' id='kata1'>
-        Kata 1. <span className='kata1__title--subtitle'>Capitalizar la primera letra de cada palabra </span>
+    <div className="kata1">
+      <h2 className="kata1__title" id="kata1">
+        Kata 1. <span className="kata1__title--subtitle">Capitalizar la primera letra de cada palabra </span>
       </h2>
-      <div className='kata1__casingStrings'>
+      <p> Ej: hola cómo estás ---> Hola Cómo Estás</p>
+      <div className="kata1__casingStrings">
         <TextInput onChangeText={changeText} />
         <TextResult value={resultTranslate(text)} />
       </div>
