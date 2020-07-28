@@ -35,7 +35,7 @@ const App = () => {
         <Kata8 />
         <CodeViewer image="./images/kata8.png" />
         <Kata9 />
-        <CodeViewer image="./images/kata8.png" />
+        <CodeViewer image="./images/kata9.png" />
       </main>
     </div>
   );
