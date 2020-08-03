@@ -10,12 +10,12 @@ El proyecto está hecho en React.
 
 - Necesitarás instalar 📋 Node.js para trabajar con este repositorio
 - Descarga o clona el repositorio ⚙️
-    $ git clone 
+    `$ git clone`
 - Abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...)
 - Instala las dependencias locales
-    $ npm install
+   `$ npm install`
 - Arranca el proyecto:
-    $ npm start
+   `$ npm start`
 
 ## Estructura 
 
