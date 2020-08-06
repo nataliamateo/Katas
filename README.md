@@ -27,3 +27,8 @@ El botón de visualizar código es otro componente que se importa a cada Kata, d
 ![Componentes](/src/images/components.PNG)
 
 ![Estilos](/src/images/stylesheets.PNG)
+
+## Ejemplo
+
+Cada kata se conforma de dos áreas de texto, la izquierda donde se introduce el texto y la derecha donde se visualiza el texto pero con la función aplicada. 
+El código de la función se puede ver clickando al botón de ver código. 
